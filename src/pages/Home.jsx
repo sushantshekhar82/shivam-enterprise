@@ -11,7 +11,7 @@ const Home = () => {
 
           </GridItem>
           <GridItem >
-            <Image src="./doorpattern.webp" alt="Shivam Enterprise Door pattern" width={'auto'} height={'600px'} margin={'auto'} />
+            <Image src="./doorpattern.webp" alt="Shivam Enterprise Door pattern" width={'auto'} height={'600px'} />
           </GridItem>
           <GridItem >
                <Grid gridTemplateRows={'250px 100px 250px'}>
