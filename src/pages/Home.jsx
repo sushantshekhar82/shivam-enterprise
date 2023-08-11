@@ -1,7 +1,8 @@
-import { Box, Grid, GridItem, Image, Text } from '@chakra-ui/react'
+import { Box, Button, Flex, Grid, GridItem, Image, Text } from '@chakra-ui/react'
 import React from 'react'
+import logo from './RounderText.png';
 import WithSubnavigation from '../components/Navbar'
-
+import '../App.css';
 const Home = () => {
   return (
     <Box backgroundColor={'#274A37'} height={'750px'} >
@@ -25,7 +26,15 @@ const Home = () => {
                   <Text as={'h5'} fontSize={'16px'}  textAlign={'left'}  color={'white'}  >Shivam Enterprises is your one-stop destination for all your UPVC needs. We provide services for UPVC doors, windows, balcony railings and stair railing that are tailor-made to fit your requirements.</Text>
                   </Box>
                 </GridItem>
-                <GridItem border={'1px solid yellow'} marginTop={'60px'}></GridItem>
+                <GridItem  marginTop={'60px'} justifyContent={'center'} alignItems={'center'}>
+                  <Flex justifyContent={'space-between'} alignItems={'center'}>
+                    <Flex gap={'10px'}>
+                  <Button bg={'#E68C2C'}>LEARN MORE</Button>
+                  <Image src='./PlayButton.svg' alt="playbutton"/>
+                  </Flex>
+                  <img src={logo} className="App-logo" alt="logo" />
+                  </Flex>
+                </GridItem>
                </Grid>
           </GridItem>
          </Grid>
