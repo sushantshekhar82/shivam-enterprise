@@ -12,7 +12,7 @@ const Home = () => {
 
           </GridItem>
           <GridItem >
-            <Image src="./doorpattern.webp" alt="Shivam Enterprise Door pattern" width={'420px'} height={'700px'} />
+            <Image src="./doorpattern.webp" alt="Shivam Enterprise Door pattern" width={'380px'} height={'700px'} />
           </GridItem>
           <GridItem >
                <Grid gridTemplateRows={'250px 100px 300px'}>
@@ -37,6 +37,10 @@ const Home = () => {
                 </GridItem>
                </Grid>
           </GridItem>
+         </Grid>
+         <Grid gridTemplateColumns={'70% 28%'}>
+             <GridItem></GridItem>
+             <GridItem></GridItem> 
          </Grid>
     </Box>
   )
