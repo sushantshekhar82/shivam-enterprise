@@ -39,8 +39,21 @@ const Home = () => {
           </GridItem>
          </Grid>
          <Grid gridTemplateColumns={'70% 28%'}>
-             <GridItem></GridItem>
-             <GridItem></GridItem> 
+             <GridItem>this is first grid</GridItem>
+             <GridItem>this is second grid</GridItem> 
+             <GridItem>this is first grid</GridItem>
+             <GridItem>this is second grid</GridItem> 
+
+             <GridItem>this is first grid</GridItem>
+             <GridItem>this is second grid</GridItem> 
+            
+            <GridItem>this is first grid</GridItem>
+             <GridItem>this is second grid</GridItem> 
+             <GridItem>this is first grid</GridItem>
+             <GridItem>this is second grid</GridItem> 
+             <GridItem>this is first grid</GridItem>
+             <GridItem>this is second grid</GridItem> 
+             
          </Grid>
     </Box>
   )
