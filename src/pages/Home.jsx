@@ -63,8 +63,13 @@ The finished product was a magnificent renovation that breathed new life into th
                </Grid>
                 <Grid gridTemplateColumns={{base:'1fr',lg:'1fr 1fr'}}height={'500px'} >
                          <GridItem border={'1px solid yellow'} height={'500px'}></GridItem>
-                         <GridItem border={'1px solid yellow'} height={'500px'}></GridItem>
-                      </Grid> 
+                         <GridItem border={'1px solid yellow'} height={'500px'}>
+                            <Grid gridTemplateRows={'220px 220px'} gap={10}>
+                               <GridItem border={'1px solid orange'} marginTop={'20px'}>he</GridItem>
+                                <GridItem border={'1px solid orange'}>hi</GridItem>
+                            </Grid>
+                         </GridItem>
+                </Grid> 
             
          </Box>
 
