@@ -45,7 +45,7 @@ const Home = () => {
             
          </Grid>
 
-         <Box backgroundColor={'#274A37'} width={'100%'} height={'600px'}>
+         <Box backgroundColor={'#274A37'} width={'100%'} height={'auto'}>
                <Grid gridTemplateColumns={{base:'1fr',lg:'40% 60%'}}>
                    <GridItem className='SpaceGrotesk'>
                     <Box lineHeight={'70px'} padding={'50px'}>
@@ -65,6 +65,7 @@ The finished product was a magnificent renovation that breathed new life into th
                          <GridItem border={'1px solid yellow'} height={'500px'}></GridItem>
                          <GridItem border={'1px solid yellow'} height={'500px'}></GridItem>
                       </Grid> 
+            
          </Box>
 
     </Box>
