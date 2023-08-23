@@ -43,11 +43,21 @@ const Home = () => {
              <GridItem>this is second grid</GridItem> 
              <GridItem>this is first grid</GridItem>
              <GridItem>this is second grid</GridItem> 
-
              <GridItem>this is first grid</GridItem>
              <GridItem>this is second grid</GridItem> 
-            
-            <GridItem>this is first grid</GridItem>
+             <GridItem>this is first grid</GridItem>
+             <GridItem>this is second grid</GridItem> 
+             <GridItem>this is first grid</GridItem>
+             <GridItem>this is second grid</GridItem> 
+             <GridItem>this is first grid</GridItem>
+             <GridItem>this is second grid</GridItem> 
+              <GridItem>this is first grid</GridItem>
+             <GridItem>this is second grid</GridItem> 
+             <GridItem>this is first grid</GridItem>
+             <GridItem>this is second grid</GridItem> 
+             <GridItem>this is first grid</GridItem>
+             <GridItem>this is second grid</GridItem> 
+             <GridItem>this is first grid</GridItem>
              <GridItem>this is second grid</GridItem> 
              <GridItem>this is first grid</GridItem>
              <GridItem>this is second grid</GridItem> 
