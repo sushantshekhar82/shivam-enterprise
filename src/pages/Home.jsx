@@ -58,10 +58,13 @@ const Home = () => {
                     <Text as={'h5'} textAlign={'left'}  color={'white'}>Our most recent door and window project was a total makeover of a delightful mid-century modern property in the city's heart. We worked directly with the owner to build custom-made doors and windows that were both functional and elegant in order to enhance the aesthetic of the property while keeping its original character.
 
 The finished product was a magnificent renovation that breathed new life into the house. The owners were overjoyed with the outcome and praised our high level of craftsmanship and attention to detail on the project.
-</Text>
-                      </Box>
+</Text>          </Box>
                     </GridItem>
                </Grid>
+                <Grid gridTemplateColumns={{base:'1fr',lg:'1fr 1fr'}}height={'500px'} >
+                         <GridItem border={'1px solid yellow'} height={'500px'}></GridItem>
+                         <GridItem border={'1px solid yellow'} height={'500px'}></GridItem>
+                      </Grid> 
          </Box>
 
     </Box>
